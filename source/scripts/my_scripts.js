@@ -17,6 +17,7 @@ function test_button() {
 
 function test() {
     setInterval(myFunction, 1000);
+    alert("Appuyé")
 }
 
 function myFunction() {
