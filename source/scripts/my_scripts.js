@@ -8,9 +8,16 @@ function init() {
 
 }
 
+
+
+
+
 function test_button() {
     var my_test_div = document.getElementById("test");
     my_test_div.innerHTML = "Je suis content !";
     my_test_div.style.backgroundColor = "green"
     alert("Clicked");
+
+
+
 }
