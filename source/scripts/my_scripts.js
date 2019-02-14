@@ -5,7 +5,6 @@
 
 function init() {
     document.getElementById("test").innerHTML = "init says Hi!";
-
 }
 
 function test_button() {
@@ -17,8 +16,31 @@ function test_button() {
 
 function test() {
     setInterval(myFunction, 1000);
-    alert("Appuyé")
+    alert("Appuyé");
 }
+
+var my_test_div = document.getElementById("my_crazy_square");
+{
+    var elem = document.getElementById("animate");
+var pos = 0;
+var id = setInterval(frame, 5);
+  function frame() {
+ if (pos == 500) {
+    clearInterval(id);}
+    
+    else 
+    {
+ pos++;
+elem.style.top = pos + 'px';
+ elem.style.left = pos + 'px';
+  }
+}
+} 
+
+}
+
+
+
 
 function myFunction() {
     console.log('COUCOU');
